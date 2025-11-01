@@ -77,8 +77,10 @@ document.addEventListener("DOMContentLoaded", () => {
 	"3": {
       "tbse": {
         "2024": [
-          { subject: "Bengali", view: "links/class3/tbse/2024/bengali.pdf", download: "links/class3/tbse/2024/bengali.pdf" },
-          { subject: "", view: "", download: "" }
+          { subject: "Bengali", view: "links/class3/tbse/2024/bengali.pdf", download: "links/class3/tbse/2024/hy-bengali.pdf" },
+          { subject: "English", view: "links/class3/tbse/2024/english.pdf", download: "links/class3/tbse/2024/hy-english.pdf" },
+		  { subject: "Mathematics", view: "links/class3/tbse/2024/mathematics.pdf", download: "links/class3/tbse/2024/hy-mathematics.pdf" },
+		  { subject: "Environmental Studies", download: "links/class3/tbse/2024/hy-environmental studies.pdf" }
         ],
         "2023": [
           { subject: "", view: "", download: "" },
@@ -110,7 +112,7 @@ document.addEventListener("DOMContentLoaded", () => {
         ]
       }
     },
-	"4": {
+	"5": {
       "tbse": {
         "2024": [
           { subject: "", view: "", download: "" },
@@ -128,7 +130,7 @@ document.addEventListener("DOMContentLoaded", () => {
         ]
       }
     },
-	"4": {
+	"6": {
       "tbse": {
         "2024": [
           { subject: "", view: "", download: "" },
@@ -146,7 +148,7 @@ document.addEventListener("DOMContentLoaded", () => {
         ]
       }
     },
-	"4": {
+	"7": {
       "tbse": {
         "2024": [
           { subject: "", view: "", download: "" },
@@ -164,7 +166,7 @@ document.addEventListener("DOMContentLoaded", () => {
         ]
       }
     },
-	"4": {
+	"8": {
       "tbse": {
         "2024": [
           { subject: "", view: "", download: "" },
@@ -182,7 +184,7 @@ document.addEventListener("DOMContentLoaded", () => {
         ]
       }
     },
-	"4": {
+	"9": {
       "tbse": {
         "2024": [
           { subject: "", view: "", download: "" },
@@ -200,7 +202,7 @@ document.addEventListener("DOMContentLoaded", () => {
         ]
       }
     },
-	"4": {
+	"10": {
       "tbse": {
         "2024": [
           { subject: "", view: "", download: "" },
@@ -218,7 +220,7 @@ document.addEventListener("DOMContentLoaded", () => {
         ]
       }
     },
-	"4": {
+	"11": {
       "tbse": {
         "2024": [
           { subject: "", view: "", download: "" },
@@ -236,7 +238,7 @@ document.addEventListener("DOMContentLoaded", () => {
         ]
       }
     },
-    "4": {
+    "12": {
       "tbse": {
         "2024": [
           { subject: "", view: "", download: "" },
@@ -275,8 +277,8 @@ document.addEventListener("DOMContentLoaded", () => {
         html += `
           <div class="paper-box">
             <h3>${paper.subject}</h3>
-            <p>📄 <a href="${paper.view}" target="_blank">View Question Paper</a></p>
-            <p>✅ <a href="${paper.download}" target="_blank">Download Question Paper</a></p>
+            <p>📄 <a href="${paper.view}" target="_blank">Annual Question Paper</a></p>
+            <p>✅ <a href="${paper.download}" target="_blank">Half-Yearly Question Paper</a></p>
           </div>
         `;
       });
