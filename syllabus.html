@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Syllabus | SumDN Study</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- HEADER (Same as Homepage) -->
+  <header>
+    <div class="logo">SumDN Study</div>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="questions.html">Previous Years</a></li>
+        <li><a href="syllabus.html" class="active">Syllabus</a></li>
+        <li><a href="gk.html">GK Test</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="support.html" class="btn-support">Support Us</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- MAIN CONTENT -->
+  <section class="question-page">
+    <h1 class="page-title fade-in">📘 Class-Wise & Board-Wise Syllabus</h1>
+    <p class="subtitle fade-in">Select your class and board to view or download syllabus.</p>
+
+    <div class="filter-box fade-in">
+      <select id="classSelect">
+        <option value="">Select Class</option>
+		<option value="3">Class 3</option>
+		<option value="4">Class 4</option>
+		<option value="5">Class 5</option>
+        <option value="6">Class 6</option>
+        <option value="7">Class 7</option>
+        <option value="8">Class 8</option>
+		<option value="9">Class 9</option>
+        <option value="10">Class 10</option>
+        <option value="11">Class 11</option>
+        <option value="12">Class 12</option>
+      </select>
+
+      <select id="boardSelect">
+        <option value="">Select Board</option>
+        <option value="cbse">CBSE</option>
+        <option value="icse">ICSE</option>
+        <option value="wb">WBBSE</option>
+        <option value="tbse">TBSE</option>
+      </select>
+
+      <button class="btn-primary" id="viewBtn">View Syllabus</button>
+    </div>
+
+    <!-- Result Display -->
+    <div id="resultContainer" class="fade-in"></div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 <a href="https://sumdnstudy.com" target="_blank">SumDNStudy.com</a> | All Rights Reserved</p>
+  </footer>
+
+  <script src="js/syllabus.js"></script>
+
+</body>
+</html>
